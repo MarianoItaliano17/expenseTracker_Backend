@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/expense")
 @RequiredArgsConstructor
-@CrossOrigin("*")
+@CrossOrigin("*") //Cambiar
 public class ExpenseController {
 
     private final ExpenseService expenseService;
